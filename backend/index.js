@@ -18,6 +18,17 @@ connection.once("open", () => {
   console.log("MongoDB Database connected");
 });
 
+app.post("/users", (req, res) => {
+  let user = new User(req.body);
+
+  user
+    .save()
+    .then((user) => res.json(user))
+    .catch((err) => {
+      res.status(400).json("Error" + err);
+    });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
