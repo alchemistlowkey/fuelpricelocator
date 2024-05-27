@@ -2,8 +2,8 @@
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
   import Tabs from "./shared/Tabs.svelte";
-  import UserForm from './components/UserForm.svelte';
-  import LocationDetails from './components/LocationDetails.svelte';
+  import UserForm from "./components/UserForm.svelte";
+  import LocationDetails from "./components/LocationDetails.svelte";
   import LocationList from "./components/LocationList.svelte";
 
   // Tabs

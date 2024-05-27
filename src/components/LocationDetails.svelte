@@ -46,7 +46,7 @@
   tr {
     background: #f2f2f2;
   }
-  .price{
+  .price {
     text-align: right;
   }
 </style>

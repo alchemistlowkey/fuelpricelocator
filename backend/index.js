@@ -28,7 +28,6 @@ app.get("/users", (req, res) => {
 });
 
 app.post("/users", (req, res) => {
-  
   let user = new User(req.body);
 
   user
