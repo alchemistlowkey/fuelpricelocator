@@ -1,5 +1,8 @@
 <script>
+	import Header from './components/Header.svelte';
 </script>
+
+<Header />
 
 <main>
 	<p>Fuel Price Locator</p>
