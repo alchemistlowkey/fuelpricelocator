@@ -1,5 +1,6 @@
 <script>
 	import Header from './components/Header.svelte';
+	import Footer from './components/Footer.svelte';
 </script>
 
 <Header />
@@ -7,6 +8,8 @@
 <main>
 	<p>Fuel Price Locator</p>
 </main>
+
+<Footer />
 
 <style>
 	main {

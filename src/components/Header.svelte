@@ -3,9 +3,9 @@
       <!-- <img src="/img/FUEL.svg" alt="Fuel Logo" /> -->
       <img src="/img/petrolme.svg" alt="Fuel Logo" />
       <li>
-        <ul>PMS/PETROL</ul>
-        <ul>AGO/DIESEL</ul>
-        <ul>LPG</ul>
+        <ul><span class="pms">PMS</span>/PETROL</ul>
+        <ul><span class="ago">AGO</span>/DIESEL</ul>
+        <ul><span class="lpg">LPG</span></ul>
       </li>
     </h1>
   </header>
@@ -29,6 +29,15 @@
         display: inline;
         font-size: medium;
         font-weight: 400;
+    }
+    .pms{
+        color: orange;
+    }
+    .ago{
+        color: rgb(129, 129, 9);
+    }
+    .lpg{
+        color: lightblue;
     }
   </style>
   
