@@ -18,7 +18,17 @@ connection.once("open", () => {
   console.log("MongoDB Database connected");
 });
 
+app.get("/users", (req, res) => {
+  User.find()
+    .sort({ createdAt: "desc" })
+    .then((users) => res.json(users))
+    .catch((err) => {
+      console.log(err);
+    });
+});
+
 app.post("/users", (req, res) => {
+  
   let user = new User(req.body);
 
   user
@@ -26,6 +36,16 @@ app.post("/users", (req, res) => {
     .then((user) => res.json(user))
     .catch((err) => {
       res.status(400).json("Error" + err);
+    });
+});
+
+app.delete("/users/:id", (req, res) => {
+  console.log(req.params.id);
+
+  User.findByIdAndDelete(req.params.id)
+    .then(() => res.json("User Deleted"))
+    .catch((err) => {
+      console.log(err);
     });
 });
 

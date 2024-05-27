@@ -4,6 +4,7 @@
   import Tabs from "./shared/Tabs.svelte";
   import UserForm from './components/UserForm.svelte';
   import LocationDetails from './components/LocationDetails.svelte';
+  import LocationList from "./components/LocationList.svelte";
 
   // Tabs
   let items = ["Price Location Details", "Add New Price Location"];
@@ -23,7 +24,7 @@
 <main>
   <Tabs {activeItem} {items} on:tabChange={tabChange} />
   {#if activeItem === "Price Location Details"}
-    <LocationDetails />
+    <LocationList />
   {:else if activeItem === "Add New Price Location"}
     <UserForm on:add={handleAdd} />
   {/if}

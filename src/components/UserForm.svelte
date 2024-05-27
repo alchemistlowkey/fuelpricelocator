@@ -12,7 +12,6 @@
   const dispatch = createEventDispatcher();
 
   const handleSubmit = async (event) => {
-    event.preventDefault();
     try {
       const response = await fetch("http://localhost:5000/users", {
         method: "POST",
@@ -42,7 +41,7 @@
   };
 </script>
 
-<form on:submit|preventDefault={handleSubmit}>
+<form on:submit={handleSubmit}>
   <div class="form-field">
     <label for="name">Name:</label>
     <input id="name" type="text" bind:value={name} required />
