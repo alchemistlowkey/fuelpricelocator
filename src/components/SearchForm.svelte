@@ -47,24 +47,35 @@
 
 <style>
   form {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
     margin: 0 auto;
-    text-align: center;
   }
   .form-field {
-    margin: 18px auto;
-    text-align: left;
+    width: 100%;
+    margin: 10px 0;
   }
   input,
   select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    margin-top: 5px;
     box-sizing: border-box;
   }
-  label {
-    display: block;
-    margin-bottom: 6px;
+
+  @media (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+    .form-field {
+      width: 100%;
+    }
+    input,
+    select {
+      width: 100%;
+      padding: 6px;
+    }
   }
 </style>

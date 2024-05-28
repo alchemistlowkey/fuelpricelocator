@@ -49,4 +49,17 @@
   .price {
     text-align: right;
   }
+  @media (max-width: 400px) {
+    tr,
+    td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: left;
+      padding: 5px;
+    }
+    .price {
+      text-align: left;
+    }
+  }
 </style>

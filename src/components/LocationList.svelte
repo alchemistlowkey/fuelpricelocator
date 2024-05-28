@@ -1,5 +1,7 @@
 <script>
   import { onMount } from "svelte";
+  import { fade, slide, scale } from "svelte/transition";
+  import { flip } from "svelte/animate";
   import LocationDetails from "./LocationDetails.svelte";
   import SearchForm from "./SearchForm.svelte";
 
@@ -42,7 +44,7 @@
         <th>Action</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody in:slide out:fade>
       {#each users as user (user._id)}
         <LocationDetails {user} onUpdate={handleUpdateUser} />
       {/each}
@@ -68,5 +70,28 @@
 
   th {
     background-color: #f2f2f2;
+  }
+  @media (max-width: 400px) {
+    table, th, tr {
+      font-size: 12px;
+      padding: 5px;
+      margin-left: 0;
+    }
+
+    th, tr {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    tr {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    th {
+      background-color: transparent;
+    }
   }
 </style>

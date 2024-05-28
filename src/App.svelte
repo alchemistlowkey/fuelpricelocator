@@ -1,9 +1,10 @@
 <script>
+	import { fade, blur, fly, slide, scale } from "svelte/transition";
+  import { flip } from "svelte/animate";
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
   import Tabs from "./shared/Tabs.svelte";
   import UserForm from "./components/UserForm.svelte";
-  import LocationDetails from "./components/LocationDetails.svelte";
   import LocationList from "./components/LocationList.svelte";
 
   // Tabs
@@ -26,7 +27,9 @@
   {#if activeItem === "Price Location Details"}
     <LocationList />
   {:else if activeItem === "Add New Price Location"}
+  <div in:slide out:fade>
     <UserForm on:add={handleAdd} />
+  </div>
   {/if}
 </main>
 
