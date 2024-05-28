@@ -40,32 +40,51 @@ Fuel Price Locator is an innovative application designed to help users find the 
 ![List](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/0425fbf7-411e-4398-ac22-333bd274ff3b)
 ![2024-05-28_1](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/4df729d0-260d-46e6-9feb-a23ee76932c6)
 
+## Technical Details
+
+### Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
 ```bash
-degit sveltejs/template fuelpricelocator
+git clone https://github.com/alchemistlowkey/fuelpricelocator.git
 ```
+
+2. Navigate to the project directory:
 
 ```bash
 cd fuelpricelocator
 ```
 
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
-
-## Get started
-
-Install the dependencies...
+3. Install the dependencies:
 
 ```bash
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+4. Start the svelte/front-end server
 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:8080](http://localhost:8080).
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
+5. Navigate to the backend directory
+
+```bash
+cd backend
+```
+
+6. Start the NodeJS/Express Server
+
+```bash
+npm start
+```
+
+Now your front-end and backend should be integrated as well as your mongoDB database connected
+Don't forget to create a .env file to store your variables like.
