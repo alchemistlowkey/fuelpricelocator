@@ -24,6 +24,7 @@ app.get("/users", (req, res) => {
     .then((users) => res.json(users))
     .catch((err) => {
       console.log(err);
+      res.status(500).json({ message: "Error fetching users" });
     });
 });
 
@@ -34,18 +35,45 @@ app.post("/users", (req, res) => {
     .save()
     .then((user) => res.json(user))
     .catch((err) => {
-      res.status(400).json("Error" + err);
+      res.status(400).json({ message: "Error saving user", error: err });
     });
 });
 
 app.delete("/users/:id", (req, res) => {
-  console.log(req.params.id);
-
   User.findByIdAndDelete(req.params.id)
-    .then(() => res.json("User Deleted"))
+    .then(() => res.json({ message: "User Deleted" }))
     .catch((err) => {
       console.log(err);
+      res.status(500).json({ message: "Error deleting user" });
     });
+});
+
+app.get("/search", async (req, res) => {
+  try {
+    const { location, fuelType, stationName, sortBy } = req.query;
+
+    let query = {};
+
+    if (location) {
+      query.location = new RegExp(location, "i"); // Case-insensitive regex
+    }
+    if (fuelType) {
+      query.product = fuelType;
+    }
+    if (stationName) {
+      query.stationName = new RegExp(stationName, "i"); // Case-insensitive regex
+    }
+
+    let users = await User.find(query);
+
+    if (sortBy === "price") {
+      users = users.sort((a, b) => a.price - b.price);
+    }
+
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 });
 
 app.listen(PORT, () => {

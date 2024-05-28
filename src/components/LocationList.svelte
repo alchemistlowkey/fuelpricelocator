@@ -1,8 +1,10 @@
 <script>
   import { onMount } from "svelte";
   import LocationDetails from "./LocationDetails.svelte";
+  import SearchForm from "./SearchForm.svelte";
 
   let users = [];
+  let searchParams = {};
 
   const fetchUsers = async () => {
     const response = await fetch("http://localhost:5000/users");
@@ -16,7 +18,17 @@
   onMount(async () => {
     await fetchUsers();
   });
+
+  const handleSearch = async (event) => {
+    searchParams = event.detail;
+
+    // Fetch users based on search parameters
+    const response = await fetch(`http://localhost:5000/search?location=${searchParams.location}&fuelType=${searchParams.fuelType}&stationName=${searchParams.stationName}&sortBy=${searchParams.sortBy}`);
+    users = await response.json();
+  };
 </script>
+
+<SearchForm on:search={handleSearch} />
 
 {#if users.length > 0}
   <table>
