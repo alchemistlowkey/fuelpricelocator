@@ -1,5 +1,6 @@
 <script>
   import { createEventDispatcher } from "svelte";
+  import Button from "../shared/Button.svelte";
 
   let location = "";
   let fuelType = "";
@@ -20,7 +21,7 @@
   </div>
 
   <div class="form-field">
-    <label for="fuelType">Fuel Type:</label>
+    <label for="fuelType">Product Type:</label>
     <select id="fuelType" bind:value={fuelType}>
       <option value="" disabled selected>Select a fuel type</option>
       <option value="PMS">PMS</option>
@@ -30,7 +31,7 @@
   </div>
 
   <div class="form-field">
-    <label for="stationName">Gas Station Name:</label>
+    <label for="stationName">Fuel Station Name:</label>
     <input id="stationName" type="text" bind:value={stationName} />
   </div>
 
@@ -41,7 +42,7 @@
     </select>
   </div>
 
-  <button type="submit">Search</button>
+  <Button type="submit">Search</Button>
 </form>
 
 <style>
@@ -65,13 +66,5 @@
   label {
     display: block;
     margin-bottom: 6px;
-  }
-  button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
   }
 </style>

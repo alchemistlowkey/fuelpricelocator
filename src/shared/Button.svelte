@@ -25,7 +25,7 @@
     color: white;
   }
   .tertiary {
-    background: #4552c4;
+    background: #007bfe;
     color: white;
   }
   .flat {
