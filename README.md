@@ -36,10 +36,9 @@ Fuel Price Locator is an innovative application designed to help users find the 
 - Each user has a profile that tracks their contributions.
 - Profiles can display badges and achievements to recognize active contributors.
 
-![2024-05-28_1](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/4df729d0-260d-46e6-9feb-a23ee76932c6)
-![List](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/0425fbf7-411e-4398-ac22-333bd274ff3b)
 ![search](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/f2eb9908-13a8-421e-b9aa-59251c670622)
-
+![List](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/0425fbf7-411e-4398-ac22-333bd274ff3b)
+![2024-05-28_1](https://github.com/alchemistlowkey/fuelpricelocator/assets/46524038/4df729d0-260d-46e6-9feb-a23ee76932c6)
 
 ```bash
 degit sveltejs/template fuelpricelocator
