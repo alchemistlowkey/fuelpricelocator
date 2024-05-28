@@ -6,7 +6,7 @@ Fuel Price Locator is an innovative application designed to help users find the 
 
 ## Key Features
 
-1. Real-Time Price Updates:
+1.Real-Time Price Updates:
 
 - Users can view the latest fuel prices at different stations in their area.
 - Prices are updated in real-time through user contributions.
@@ -24,14 +24,14 @@ Fuel Price Locator is an innovative application designed to help users find the 
 4.Community Collaboration:
 
 - A community-driven approach ensures that the data remains current and comprehensive.
-- Users can rate and comment on gas stations, providing additional insights(to be implemented in future).
+- Users can rate and comment on gas stations, providing additional insights (**to be implemented in future**).
 
 5.Price Alerts:
 
-- Users can set up alerts to notify them when fuel prices drop below a certain threshold(to be implemented in future).
-- Notifications can be tailored to specific locations or fuel types(to be implemented in future).
+- Users can set up alerts to notify them when fuel prices drop below a certain threshold (**to be implemented in future**).
+- Notifications can be tailored to specific locations or fuel types (**to be implemented in future**).
 
-6.User Profiles(to be implemented in future):
+6.User Profiles (**to be implemented in future**):
 
 - Each user has a profile that tracks their contributions.
 - Profiles can display badges and achievements to recognize active contributors.
