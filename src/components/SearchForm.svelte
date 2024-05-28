@@ -42,7 +42,7 @@
     </select>
   </div>
 
-  <Button type="submit">Search</Button>
+  <Button type="submit tertiary">Search</Button>
 </form>
 
 <style>
