@@ -40,6 +40,7 @@ app.post("/users", (req, res) => {
 });
 
 app.delete("/users/:id", (req, res) => {
+  console.log(req.params.id);
   User.findByIdAndDelete(req.params.id)
     .then(() => res.json({ message: "User Deleted" }))
     .catch((err) => {
@@ -50,21 +51,21 @@ app.delete("/users/:id", (req, res) => {
 
 app.get("/search", async (req, res) => {
   try {
-    const { location, fuelType, stationName, sortBy } = req.query;
+    const { query, sortBy } = req.query;
 
-    let query = {};
+    let searchQuery = {};
 
-    if (location) {
-      query.location = new RegExp(location, "i"); // Case-insensitive regex
-    }
-    if (fuelType) {
-      query.product = fuelType;
-    }
-    if (stationName) {
-      query.stationName = new RegExp(stationName, "i"); // Case-insensitive regex
+    if (query) {
+      searchQuery = {
+        $or: [
+          { location: new RegExp(query, "i") },
+          { product: new RegExp(query, "i") },
+          { stationName: new RegExp(query, "i") }
+        ]
+      };
     }
 
-    let users = await User.find(query);
+    let users = await User.find(searchQuery);
 
     if (sortBy === "price") {
       users = users.sort((a, b) => a.price - b.price);

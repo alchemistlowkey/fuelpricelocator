@@ -25,7 +25,7 @@
     searchParams = event.detail;
 
     // Fetch users based on search parameters
-    const response = await fetch(`http://localhost:5000/search?location=${searchParams.location}&fuelType=${searchParams.fuelType}&stationName=${searchParams.stationName}&sortBy=${searchParams.sortBy}`);
+    const response = await fetch(`http://localhost:5000/search?query=${searchParams.query}`);
     users = await response.json();
   };
 </script>

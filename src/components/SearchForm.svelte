@@ -2,44 +2,20 @@
   import { createEventDispatcher } from "svelte";
   import Button from "../shared/Button.svelte";
 
-  let location = "";
-  let fuelType = "";
-  let stationName = "";
+  let query = "";
   let sortBy = "price"; // Default sorting option
 
   const dispatch = createEventDispatcher();
 
   const handleSearch = () => {
-    dispatch("search", { location, fuelType, stationName, sortBy });
+    dispatch("search", { query });
   };
 </script>
 
 <form on:submit|preventDefault={handleSearch}>
   <div class="form-field">
-    <label for="location">Location:</label>
-    <input id="location" type="text" bind:value={location} />
-  </div>
-
-  <div class="form-field">
-    <label for="fuelType">Product Type:</label>
-    <select id="fuelType" bind:value={fuelType}>
-      <option value="" disabled selected>Select a fuel type</option>
-      <option value="PMS">PMS</option>
-      <option value="AGO">AGO</option>
-      <option value="LPG">LPG</option>
-    </select>
-  </div>
-
-  <div class="form-field">
-    <label for="stationName">Fuel Station Name:</label>
-    <input id="stationName" type="text" bind:value={stationName} />
-  </div>
-
-  <div class="form-field">
-    <label for="sortBy">Sort By:</label>
-    <select id="sortBy" bind:value={sortBy}>
-      <option value="price">Price</option>
-    </select>
+    <label for="query">Search:</label>
+    <input id="query" type="text" bind:value={query} placeholder="Search by location, product, or station name" />
   </div>
 
   <Button type="submit tertiary">Search</Button>
@@ -57,8 +33,7 @@
     width: 100%;
     margin: 10px 0;
   }
-  input,
-  select {
+  input{
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -72,8 +47,7 @@
     .form-field {
       width: 100%;
     }
-    input,
-    select {
+    input{
       width: 100%;
       padding: 6px;
     }
