@@ -1,0 +1,373 @@
+[
+    {
+        "name": "John Doe",
+        "location": "Lagos",
+        "price": 2750.50,
+        "product": "PMS",
+        "stationName": "ABC Fuel Station"
+    },
+    {
+        "name": "Alice Smith",
+        "location": "Abuja",
+        "price": 31000.25,
+        "product": "AGO",
+        "stationName": "XYZ Fuel Station"
+    },
+    {
+        "name": "Bob Johnson",
+        "location": "Rivers",
+        "price": 290.99,
+        "product": "PMS",
+        "stationName": "123 Fuel Station"
+    },
+    {
+        "name": "Mary Brown",
+        "location": "Bauchi",
+        "price": 305,
+        "product": "PMS",
+        "stationName": "Nipco"
+    },
+    {
+        "name": "David Smith",
+        "location": "Bayelsa",
+        "price": 295,
+        "product": "AGO",
+        "stationName": "Total"
+    },
+    {
+        "name": "Sarah Johnson",
+        "location": "Benue",
+        "price": 315,
+        "product": "PMS",
+        "stationName": "11 PLC"
+    },
+    {
+        "name": "James White",
+        "location": "Borno",
+        "price": 280,
+        "product": "LPG",
+        "stationName": "MRS"
+    },
+    {
+        "name": "Grace Thomas",
+        "location": "Cross River",
+        "price": 320,
+        "product": "PMS",
+        "stationName": "Ardova"
+    },
+    {
+        "name": "Michael Johnson",
+        "location": "Delta",
+        "price": 325,
+        "product": "AGO",
+        "stationName": "Conoil"
+    },
+    {
+        "name": "Rebecca Williams",
+        "location": "Ebonyi",
+        "price": 285,
+        "product": "PMS",
+        "stationName": "Oando"
+    },
+    {
+        "name": "Daniel Wilson",
+        "location": "Edo",
+        "price": 300,
+        "product": "LPG",
+        "stationName": "NNPC"
+    },
+    {
+        "name": "Olivia Brown",
+        "location": "Ekiti",
+        "price": 305,
+        "product": "PMS",
+        "stationName": "Mobil"
+    },
+    {
+        "name": "Thomas Johnson",
+        "location": "Enugu",
+        "price": 290,
+        "product": "AGO",
+        "stationName": "Pinnacle"
+    },
+    {
+        "name": "Jessica Williams",
+        "location": "Gombe",
+        "price": 330,
+        "product": "PMS",
+        "stationName": "PetroCam"
+    },
+    {
+        "name": "Samuel Wilson",
+        "location": "Imo",
+        "price": 310,
+        "product": "AGO",
+        "stationName": "Heyden"
+    },
+    {
+        "name": "Hannah Taylor",
+        "location": "Jigawa",
+        "price": 320,
+        "product": "PMS",
+        "stationName": "Bovas"
+    },
+    {
+        "name": "Joseph Clark",
+        "location": "Kaduna",
+        "price": 295,
+        "product": "AGO",
+        "stationName": "Rainoil"
+    },
+    {
+        "name": "Linda Anderson",
+        "location": "Kano",
+        "price": 305,
+        "product": "PMS",
+        "stationName": "A. A. Rano"
+    },
+    {
+        "name": "Ryan Harris",
+        "location": "Katsina",
+        "price": 315,
+        "product": "PMS",
+        "stationName": "Nipco"
+    },
+    {
+        "name": "Nancy King",
+        "location": "Kebbi",
+        "price": 325,
+        "product": "AGO",
+        "stationName": "MRS"
+    },
+    {
+        "name": "Patrick Brown",
+        "location": "Kogi",
+        "price": 285,
+        "product": "PMS",
+        "stationName": "Ardova"
+    },
+    {
+        "name": "Emily Wright",
+        "location": "Kwara",
+        "price": 300,
+        "product": "LPG",
+        "stationName": "Conoil"
+    },
+    {
+        "name": "Jennifer Martinez",
+        "location": "Lagos",
+        "price": 310,
+        "product": "PMS",
+        "stationName": "Oando"
+    },
+    {
+        "name": "Samuel Wilson",
+        "location": "Nasarawa",
+        "price": 320,
+        "product": "PMS",
+        "stationName": "NNPC"
+    },
+    {
+        "name": "Hannah Taylor",
+        "location": "Niger",
+        "price": 295,
+        "product": "AGO",
+        "stationName": "Mobil"
+    },
+    {
+        "name": "Joseph Clark",
+        "location": "Ogun",
+        "price": 305,
+        "product": "PMS",
+        "stationName": "Pinnacle"
+    },
+    {
+        "name": "Linda Anderson",
+        "location": "Ondo",
+        "price": 290,
+        "product": "AGO",
+        "stationName": "PetroCam"
+    },
+    {
+        "name": "Ryan Harris",
+        "location": "Osun",
+        "price": 315,
+        "product": "PMS",
+        "stationName": "Heyden"
+    },
+    {
+        "name": "Nancy King",
+        "location": "Oyo",
+        "price": 325,
+        "product": "AGO",
+        "stationName": "Bovas"
+    },
+    {
+        "name": "Patrick Brown",
+        "location": "Plateau",
+        "price": 285,
+        "product": "PMS",
+        "stationName": "Rainoil"
+    },
+    {
+        "name": "Emily Wright",
+        "location": "Rivers",
+        "price": 300,
+        "product": "LPG",
+        "stationName": "A. A. Rano"
+    },
+    {
+        "name": "Jennifer Martinez",
+        "location": "Ekiti",
+        "price": 310,
+        "product": "PMS",
+        "stationName": "Pinnacle"
+    },
+    {
+        "name": "Eva Martinez",
+        "location": "Kano",
+        "price": 285000.75,
+        "product": "LPG",
+        "stationName": "Fuel4U"
+    },
+    {
+        "name": "Grace Wilson",
+        "location": "Abia",
+        "price": 3025.50,
+        "product": "PMS",
+        "stationName": "Nipco"
+    },
+    {
+        "name": "Michael Taylor",
+        "location": "Adamawa",
+        "price": 2960.75,
+        "product": "AGO",
+        "stationName": "Total"
+    },
+    {
+        "name": "Sarah Brown",
+        "location": "Akwa Ibom",
+        "price": 311000,
+        "product": "PMS",
+        "stationName": "11 PLC"
+    },
+    {
+        "name": "David Martinez",
+        "location": "Anambra",
+        "price": 288.25,
+        "product": "LPG",
+        "stationName": "MRS"
+    },
+    {
+        "name": "Jennifer Clark",
+        "location": "Bauchi",
+        "price": 29500,
+        "product": "PMS",
+        "stationName": "Ardova"
+    },
+    {
+        "name": "Daniel Johnson",
+        "location": "Bayelsa",
+        "price": 3050.75,
+        "product": "AGO",
+        "stationName": "Conoil"
+    },
+    {
+        "name": "Emily Martinez",
+        "location": "Benue",
+        "price": 31000,
+        "product": "PMS",
+        "stationName": "Oando"
+    },
+    {
+        "name": "James Wilson",
+        "location": "Borno",
+        "price": 285,
+        "product": "AGO",
+        "stationName": "NNPC"
+    },
+    {
+        "name": "Olivia Taylor",
+        "location": "Cross River",
+        "price": 3030,
+        "product": "PMS",
+        "stationName": "Mobil"
+    },
+    {
+        "name": "William Brown",
+        "location": "Delta",
+        "price": 2990.50,
+        "product": "LPG",
+        "stationName": "Pinnacle"
+    },
+    {
+        "name": "Sophia Clark",
+        "location": "Ebonyi",
+        "price": 2955.75,
+        "product": "PMS",
+        "stationName": "PetroCam"
+    },
+    {
+        "name": "Mason Johnson",
+        "location": "Edo",
+        "price": 2968,
+        "product": "AGO",
+        "stationName": "Heyden"
+    },
+    {
+        "name": "Charlotte Martinez",
+        "location": "Ekiti",
+        "price": 3025.99,
+        "product": "PMS",
+        "stationName": "Bovas"
+    },
+    {
+        "name": "Ethan Wilson",
+        "location": "Enugu",
+        "price": 3075,
+        "product": "LPG",
+        "stationName": "Rainoil"
+    },
+    {
+        "name": "Amelia Taylor",
+        "location": "Gombe",
+        "price": 2945.25,
+        "product": "PMS",
+        "stationName": "A. A. Rano"
+    },
+    {
+        "name": "Alexander Brown",
+        "location": "Imo",
+        "price": 3010.75,
+        "product": "AGO",
+        "stationName": "Nipco"
+    },
+    {
+        "name": "Ava Clark",
+        "location": "Jigawa",
+        "price": 2975.50,
+        "product": "PMS",
+        "stationName": "Total"
+    },
+    {
+        "name": "Noah Johnson",
+        "location": "Kaduna",
+        "price": 2905.90,
+        "product": "LPG",
+        "stationName": "11 PLC"
+    },
+    {
+        "name": "Madison Martinez",
+        "location": "Kano",
+        "price": 3060.45,
+        "product": "PMS",
+        "stationName": "MRS"
+    },
+    {
+        "name": "Chloe Wilson",
+        "location": "Katsina",
+        "price": 2930,
+        "product": "AGO",
+        "stationName": "Nipco"
+    }
+]

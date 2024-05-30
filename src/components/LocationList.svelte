@@ -21,11 +21,13 @@
     await fetchUsers();
   });
 
-  const handleSearch = async (event) => {
-    searchParams = event.detail;
+  const handleSearch = async (e) => {
+    searchParams = e.detail;
 
     // Fetch users based on search parameters
-    const response = await fetch(`http://localhost:5000/search?query=${searchParams.query}`);
+    const response = await fetch(
+      `http://localhost:5000/search?query=${searchParams.query}`
+    );
     users = await response.json();
   };
 </script>
@@ -72,13 +74,16 @@
     background-color: #f2f2f2;
   }
   @media (max-width: 400px) {
-    table, th, tr {
+    table,
+    th,
+    tr {
       font-size: 12px;
       padding: 5px;
       margin-left: 0;
     }
 
-    th, tr {
+    th,
+    tr {
       display: block;
       width: 100%;
       box-sizing: border-box;

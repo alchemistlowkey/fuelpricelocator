@@ -3,7 +3,6 @@
   import Button from "../shared/Button.svelte";
 
   let query = "";
-  let sortBy = "price"; // Default sorting option
 
   const dispatch = createEventDispatcher();
 
@@ -38,6 +37,7 @@
     padding: 8px;
     margin-top: 5px;
     box-sizing: border-box;
+    border-radius: 6px;
   }
 
   @media (max-width: 600px) {

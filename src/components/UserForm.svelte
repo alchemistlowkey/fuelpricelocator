@@ -44,17 +44,17 @@
 <form on:submit={handleSubmit}>
   <div class="form-field">
     <label for="name">Name:</label>
-    <input id="name" type="text" bind:value={name} required />
+    <input id="name" type="text" bind:value={name} placeholder="Enter your name" required />
   </div>
 
   <div class="form-field">
     <label for="location">Location:</label>
-    <input id="location" type="text" bind:value={location} required />
+    <input id="location" type="text" bind:value={location} placeholder="Enter address of the fuel station and the state" required />
   </div>
 
   <div class="form-field">
     <label for="price">Price:</label>
-    <input id="price" type="number" bind:value={price} required />
+    <input id="price" type="number" bind:value={price} placeholder="Enter price in per L or per Kg " required />
   </div>
 
   <div class="form-field">
@@ -69,7 +69,7 @@
 
   <div class="form-field">
     <label for="stationName">Name Of Fuel Station:</label>
-    <input id="stationName" type="text" bind:value={stationName} required />
+    <input id="stationName" type="text" bind:value={stationName} placeholder="Enter Fuel station name" required />
   </div>
 
   {#if errorMessage}
@@ -98,6 +98,7 @@
     border: 1px solid #ccc;
     border-radius: 6px;
     box-sizing: border-box;
+    background: #f7f7f7;
   }
   label {
     display: block;
