@@ -1,6 +1,5 @@
 <header>
   <h1>
-    <!-- <img src="/img/FUEL.svg" alt="Fuel Logo" /> -->
     <img src="/img/petrolme.svg" alt="Fuel Logo" />
     <li>
       <ul><span class="pms">PMS</span>/PETROL</ul>

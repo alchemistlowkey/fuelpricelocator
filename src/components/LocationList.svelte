@@ -1,28 +1,34 @@
 <script>
+  // Import necessary functions and components
   import { onMount } from "svelte";
   import { fade, slide, scale } from "svelte/transition";
   import { flip } from "svelte/animate";
-  import LocationDetails from "./LocationDetails.svelte";
-  import SearchForm from "./SearchForm.svelte";
+  import LocationDetails from "./LocationDetails.svelte"; // Import LocationDetails component
+  import SearchForm from "./SearchForm.svelte"; // Import SearchForm component
 
-  let users = [];
-  let searchParams = {};
+  // Declare reactive variables
+  let users = []; // Holds the list of users
+  let searchParams = {}; // Holds the search parameters
 
+  // Function to fetch users from the server
   const fetchUsers = async () => {
     const response = await fetch("http://localhost:5000/users");
     users = await response.json();
   };
 
+  // Function to handle update user event
   const handleUpdateUser = () => {
-    fetchUsers();
+    fetchUsers(); // Fetch updated user data
   };
 
+  // Perform initial fetch of users when component mounts
   onMount(async () => {
     await fetchUsers();
   });
 
+  // Function to handle search event
   const handleSearch = async (e) => {
-    searchParams = e.detail;
+    searchParams = e.detail; // Update search parameters
 
     // Fetch users based on search parameters
     const response = await fetch(
@@ -32,11 +38,14 @@
   };
 </script>
 
+<!-- SearchForm component to search for users -->
 <SearchForm on:search={handleSearch} />
 
+<!-- Display users in a table if users exist -->
 {#if users.length > 0}
   <table>
     <thead>
+      <!-- Table header -->
       <tr>
         <th>Name</th>
         <th>Location</th>
@@ -47,15 +56,18 @@
       </tr>
     </thead>
     <tbody in:slide out:fade>
+      <!-- Iterate over users and display LocationDetails component for each user -->
       {#each users as user (user._id)}
         <LocationDetails {user} onUpdate={handleUpdateUser} />
       {/each}
     </tbody>
   </table>
 {:else}
+  <!-- Display message if no users are found -->
   <p>No Details found.</p>
 {/if}
 
+<!-- Styling for the table -->
 <style>
   table {
     width: 100%;
@@ -73,6 +85,8 @@
   th {
     background-color: #f2f2f2;
   }
+
+  /* Media query for smaller screens */
   @media (max-width: 400px) {
     table,
     th,
