@@ -77,7 +77,7 @@ app.get("/search", async (req, res) => {
       searchQuery = {
         $or: [
           { location: new RegExp(query, "i") }, // Case-insensitive regex search for location
-          { product: new RegExp(query, "i") }, // Case-insensitive regex search for product
+          { product: new RegExp(query) }, // Case-sensitive regex search for product
           { stationName: new RegExp(query, "i") }, // Case-insensitive regex search for station name
         ],
       };
