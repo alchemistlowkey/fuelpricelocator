@@ -1,4 +1,5 @@
 // Import required modules
+require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -10,6 +11,8 @@ const app = express();
 // Define the port to run the server on
 const PORT = process.env.PORT || 5000;
 
+let uri = process.env.MONGODB_URI;
+
 // Middleware to enable Cross-Origin Resource Sharing (CORS)
 app.use(cors());
 
@@ -20,7 +23,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to the MongoDB database
-mongoose.connect(`mongodb://localhost:27017/fuelprice`);
+// mongoose.connect(`mongodb://localhost:27017/fuelprice`);
+mongoose.connect(uri);
 
 const connection = mongoose.connection;
 
@@ -77,7 +81,7 @@ app.get("/search", async (req, res) => {
       searchQuery = {
         $or: [
           { location: new RegExp(query, "i") }, // Case-insensitive regex search for location
-          { product: new RegExp(query, "i") }, // Case-sensitive regex search for product
+          { product: new RegExp(query, "i") }, // Case-insensitive regex search for product
           { stationName: new RegExp(query, "i") }, // Case-insensitive regex search for station name
         ],
       };

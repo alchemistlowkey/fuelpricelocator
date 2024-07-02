@@ -1,0 +1,830 @@
+[{
+  "_id": {
+    "$oid": "6655206a9445973ae076ef14"
+  },
+  "name": "Wang Dong",
+  "location": "Dockyard Road, Apapa, Lagos",
+  "price": 610,
+  "product": "PMS",
+  "stationName": "Nipco",
+  "createdAt": {
+    "$date": "2024-05-28T00:08:10.204Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-28T00:08:10.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6655c3d9b93fe5d0c1fbaeae"
+  },
+  "name": "Nidaime",
+  "location": "Amuwo-Odofin, Lagos",
+  "price": 570,
+  "product": "PMS",
+  "stationName": "Petro Cam",
+  "createdAt": {
+    "$date": "2024-05-28T11:45:29.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-28T11:45:29.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6656f3df38571fdc6bdd573b"
+  },
+  "name": "Luo Feng",
+  "location": "Benin, Edo State",
+  "price": 15000,
+  "product": "LPG",
+  "stationName": "Nipco",
+  "createdAt": {
+    "$date": "2024-05-29T09:22:39.805Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T09:22:39.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665762b761cb208f30afcfd3"
+  },
+  "name": "Mu Chen",
+  "location": "Lagos",
+  "price": 750,
+  "product": "PMS",
+  "stationName": "Oando",
+  "createdAt": {
+    "$date": "2024-05-29T17:15:35.581Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T17:15:35.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66576cf8737c8bfd3c37603f"
+  },
+  "name": "Mu Chen",
+  "location": "Yaba, Lagos",
+  "price": 600,
+  "product": "PMS",
+  "stationName": "MRS",
+  "createdAt": {
+    "$date": "2024-05-29T17:59:20.539Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T17:59:20.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665794cd66c481d20919823b"
+  },
+  "name": "Tan Yun",
+  "location": "Akure",
+  "price": 580,
+  "product": "PMS",
+  "stationName": "Bovas",
+  "createdAt": {
+    "$date": "2024-05-29T20:49:17.036Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T20:49:17.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a7d"
+  },
+  "name": "John Doe",
+  "location": "Lagos",
+  "price": 2750.5,
+  "product": "PMS",
+  "stationName": "ABC Fuel Station"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a7e"
+  },
+  "name": "Alice Smith",
+  "location": "Abuja",
+  "price": 31000.25,
+  "product": "AGO",
+  "stationName": "XYZ Fuel Station"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a80"
+  },
+  "name": "Mary Brown",
+  "location": "Bauchi",
+  "price": 305,
+  "product": "PMS",
+  "stationName": "Nipco"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a81"
+  },
+  "name": "David Smith",
+  "location": "Bayelsa",
+  "price": 295,
+  "product": "AGO",
+  "stationName": "Total"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a82"
+  },
+  "name": "Sarah Johnson",
+  "location": "Benue",
+  "price": 315,
+  "product": "PMS",
+  "stationName": "11 PLC"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a83"
+  },
+  "name": "James White",
+  "location": "Borno",
+  "price": 280,
+  "product": "LPG",
+  "stationName": "MRS"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a84"
+  },
+  "name": "Grace Thomas",
+  "location": "Cross River",
+  "price": 320,
+  "product": "PMS",
+  "stationName": "Ardova"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a85"
+  },
+  "name": "Michael Johnson",
+  "location": "Delta",
+  "price": 325,
+  "product": "AGO",
+  "stationName": "Conoil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a86"
+  },
+  "name": "Rebecca Williams",
+  "location": "Ebonyi",
+  "price": 285,
+  "product": "PMS",
+  "stationName": "Oando"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a87"
+  },
+  "name": "Daniel Wilson",
+  "location": "Edo",
+  "price": 300,
+  "product": "LPG",
+  "stationName": "NNPC"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a88"
+  },
+  "name": "Olivia Brown",
+  "location": "Ekiti",
+  "price": 305,
+  "product": "PMS",
+  "stationName": "Mobil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a89"
+  },
+  "name": "Thomas Johnson",
+  "location": "Enugu",
+  "price": 290,
+  "product": "AGO",
+  "stationName": "Pinnacle"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a8a"
+  },
+  "name": "Jessica Williams",
+  "location": "Gombe",
+  "price": 330,
+  "product": "PMS",
+  "stationName": "PetroCam"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a8b"
+  },
+  "name": "Samuel Wilson",
+  "location": "Imo",
+  "price": 310,
+  "product": "AGO",
+  "stationName": "Heyden"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a8c"
+  },
+  "name": "Hannah Taylor",
+  "location": "Jigawa",
+  "price": 320,
+  "product": "PMS",
+  "stationName": "Bovas"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a8d"
+  },
+  "name": "Joseph Clark",
+  "location": "Kaduna",
+  "price": 295,
+  "product": "AGO",
+  "stationName": "Rainoil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a8e"
+  },
+  "name": "Linda Anderson",
+  "location": "Kano",
+  "price": 305,
+  "product": "PMS",
+  "stationName": "A. A. Rano"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a8f"
+  },
+  "name": "Ryan Harris",
+  "location": "Katsina",
+  "price": 315,
+  "product": "PMS",
+  "stationName": "Nipco"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a90"
+  },
+  "name": "Nancy King",
+  "location": "Kebbi",
+  "price": 325,
+  "product": "AGO",
+  "stationName": "MRS"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a91"
+  },
+  "name": "Patrick Brown",
+  "location": "Kogi",
+  "price": 285,
+  "product": "PMS",
+  "stationName": "Ardova"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a92"
+  },
+  "name": "Emily Wright",
+  "location": "Kwara",
+  "price": 300,
+  "product": "LPG",
+  "stationName": "Conoil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a93"
+  },
+  "name": "Jennifer Martinez",
+  "location": "Lagos",
+  "price": 310,
+  "product": "PMS",
+  "stationName": "Oando"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a94"
+  },
+  "name": "Samuel Wilson",
+  "location": "Nasarawa",
+  "price": 320,
+  "product": "PMS",
+  "stationName": "NNPC"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a95"
+  },
+  "name": "Hannah Taylor",
+  "location": "Niger",
+  "price": 295,
+  "product": "AGO",
+  "stationName": "Mobil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a96"
+  },
+  "name": "Joseph Clark",
+  "location": "Ogun",
+  "price": 305,
+  "product": "PMS",
+  "stationName": "Pinnacle"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a97"
+  },
+  "name": "Linda Anderson",
+  "location": "Ondo",
+  "price": 290,
+  "product": "AGO",
+  "stationName": "PetroCam"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a98"
+  },
+  "name": "Ryan Harris",
+  "location": "Osun",
+  "price": 315,
+  "product": "PMS",
+  "stationName": "Heyden"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a99"
+  },
+  "name": "Nancy King",
+  "location": "Oyo",
+  "price": 325,
+  "product": "AGO",
+  "stationName": "Bovas"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a9a"
+  },
+  "name": "Patrick Brown",
+  "location": "Plateau",
+  "price": 285,
+  "product": "PMS",
+  "stationName": "Rainoil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a9b"
+  },
+  "name": "Emily Wright",
+  "location": "Rivers",
+  "price": 300,
+  "product": "LPG",
+  "stationName": "A. A. Rano"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a9c"
+  },
+  "name": "Jennifer Martinez",
+  "location": "Ekiti",
+  "price": 310,
+  "product": "PMS",
+  "stationName": "Pinnacle"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a9d"
+  },
+  "name": "Eva Martinez",
+  "location": "Kano",
+  "price": 285000.75,
+  "product": "LPG",
+  "stationName": "Fuel4U"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1a9f"
+  },
+  "name": "Michael Taylor",
+  "location": "Adamawa",
+  "price": 2960.75,
+  "product": "AGO",
+  "stationName": "Total"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa0"
+  },
+  "name": "Sarah Brown",
+  "location": "Akwa Ibom",
+  "price": 311000,
+  "product": "PMS",
+  "stationName": "11 PLC"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa1"
+  },
+  "name": "David Martinez",
+  "location": "Anambra",
+  "price": 288.25,
+  "product": "LPG",
+  "stationName": "MRS"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa2"
+  },
+  "name": "Jennifer Clark",
+  "location": "Bauchi",
+  "price": 29500,
+  "product": "PMS",
+  "stationName": "Ardova"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa3"
+  },
+  "name": "Daniel Johnson",
+  "location": "Bayelsa",
+  "price": 3050.75,
+  "product": "AGO",
+  "stationName": "Conoil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa4"
+  },
+  "name": "Emily Martinez",
+  "location": "Benue",
+  "price": 31000,
+  "product": "PMS",
+  "stationName": "Oando"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa5"
+  },
+  "name": "James Wilson",
+  "location": "Borno",
+  "price": 285,
+  "product": "AGO",
+  "stationName": "NNPC"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa6"
+  },
+  "name": "Olivia Taylor",
+  "location": "Cross River",
+  "price": 3030,
+  "product": "PMS",
+  "stationName": "Mobil"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa7"
+  },
+  "name": "William Brown",
+  "location": "Delta",
+  "price": 2990.5,
+  "product": "LPG",
+  "stationName": "Pinnacle"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa8"
+  },
+  "name": "Sophia Clark",
+  "location": "Ebonyi",
+  "price": 2955.75,
+  "product": "PMS",
+  "stationName": "PetroCam"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aa9"
+  },
+  "name": "Mason Johnson",
+  "location": "Edo",
+  "price": 2968,
+  "product": "AGO",
+  "stationName": "Heyden"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aaa"
+  },
+  "name": "Charlotte Martinez",
+  "location": "Ekiti",
+  "price": 3025.99,
+  "product": "PMS",
+  "stationName": "Bovas"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aac"
+  },
+  "name": "Amelia Taylor",
+  "location": "Gombe",
+  "price": 2945.25,
+  "product": "PMS",
+  "stationName": "A. A. Rano"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aad"
+  },
+  "name": "Alexander Brown",
+  "location": "Imo",
+  "price": 3010.75,
+  "product": "AGO",
+  "stationName": "Nipco"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1aaf"
+  },
+  "name": "Noah Johnson",
+  "location": "Kaduna",
+  "price": 2905.9,
+  "product": "LPG",
+  "stationName": "11 PLC"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1ab0"
+  },
+  "name": "Madison Martinez",
+  "location": "Kano",
+  "price": 3060.45,
+  "product": "PMS",
+  "stationName": "MRS"
+},
+{
+  "_id": {
+    "$oid": "6657b56eb068c139730f1ab1"
+  },
+  "name": "Chloe Wilson",
+  "location": "Katsina",
+  "price": 2930,
+  "product": "AGO",
+  "stationName": "Nipco"
+},
+{
+  "_id": {
+    "$oid": "6657bd1e66c481d209198281"
+  },
+  "name": "Monday",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 600,
+  "product": "PMS",
+  "stationName": "Conoil",
+  "createdAt": {
+    "$date": "2024-05-29T23:41:18.840Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T23:41:18.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6657bd4e66c481d209198284"
+  },
+  "name": "Tuesday",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 572,
+  "product": "PMS",
+  "stationName": "NNPC",
+  "createdAt": {
+    "$date": "2024-05-29T23:42:06.946Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T23:42:06.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6657bd7366c481d209198287"
+  },
+  "name": "Wednesday",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 615,
+  "product": "PMS",
+  "stationName": "Ardova",
+  "createdAt": {
+    "$date": "2024-05-29T23:42:43.018Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T23:42:43.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6657bd9466c481d20919828a"
+  },
+  "name": "Thursday",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 605,
+  "product": "PMS",
+  "stationName": "Mobil",
+  "createdAt": {
+    "$date": "2024-05-29T23:43:16.873Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T23:43:16.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6657bdfe66c481d20919828e"
+  },
+  "name": "Friday",
+  "location": "Ademuyiwa street off Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 1200,
+  "product": "LPG",
+  "stationName": "Eliesther",
+  "createdAt": {
+    "$date": "2024-05-29T23:45:02.116Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T23:45:02.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6657c0bf66c481d2091982a0"
+  },
+  "name": "Saturday",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 1100,
+  "product": "LPG",
+  "stationName": "NNPC",
+  "createdAt": {
+    "$date": "2024-05-29T23:56:47.778Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T23:56:47.778Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66584875eb6ec1ca1504014c"
+  },
+  "name": "Lucky Samuel",
+  "location": "Onike, Yaba, Lagos",
+  "price": 600,
+  "product": "PMS",
+  "stationName": "Mobil",
+  "createdAt": {
+    "$date": "2024-05-30T09:35:49.378Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-30T09:35:49.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665854c677e06c84e32076bf"
+  },
+  "name": "Nie Li",
+  "location": "Murtala Mohammed way, Yaba, Lagos",
+  "price": 740,
+  "product": "PMS",
+  "stationName": "Heyden",
+  "createdAt": {
+    "$date": "2024-05-30T10:28:22.187Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-30T10:28:22.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658555c77e06c84e32076c2"
+  },
+  "name": "Xu Yang",
+  "location": "Murtala Mohammed way, Yaba, Lagos",
+  "price": 576,
+  "product": "PMS",
+  "stationName": "NNPC",
+  "createdAt": {
+    "$date": "2024-05-30T10:30:52.062Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-30T10:30:52.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6658564ad531b81d560466c4"
+  },
+  "name": "Luo Feng",
+  "location": "Murtala Mohammed way, Yaba, Lagos",
+  "price": 710,
+  "product": "PMS",
+  "stationName": "Total",
+  "createdAt": {
+    "$date": "2024-05-30T10:34:50.861Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-30T10:34:50.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665864907b23270b5edb162a"
+  },
+  "name": "BKT",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 550,
+  "product": "PMS",
+  "stationName": "NNPC",
+  "createdAt": {
+    "$date": "2024-05-30T11:35:44.445Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-30T11:35:44.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66622f608dd030cc159b7f8e"
+  },
+  "name": "alchemist",
+  "location": "Apapa road, Costain, Ebute-Metta West, Lagos",
+  "price": 12000,
+  "product": "LPG",
+  "stationName": "NNPC",
+  "createdAt": {
+    "$date": "2024-06-06T21:51:28.233Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-06T21:51:28.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66844aa28d74041488f5ada8"
+  },
+  "name": "Lucky Samuel",
+  "location": "14, Patience Street",
+  "price": 1200,
+  "product": "PMS",
+  "stationName": "NNPC",
+  "createdAt": {
+    "$date": "2024-07-02T18:44:50.590Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-02T18:44:50.590Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684531dee83b4a14b75d4e3"
+  },
+  "name": "Nipco Depot",
+  "location": "1 & 15 Dockyard Road",
+  "price": 620,
+  "product": "PMS",
+  "stationName": "Nipco",
+  "createdAt": {
+    "$date": "2024-07-02T19:21:01.731Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-02T19:21:01.731Z"
+  },
+  "__v": 0
+}]
