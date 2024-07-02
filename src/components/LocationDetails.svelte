@@ -21,11 +21,11 @@
 </script>
 
 <!-- Table row to display user information -->
-<tr>
-  <td>
+<tr class="container-fluid">
+  <!-- <td>
     {user.name}
-    <!-- Display user's name -->
-  </td>
+    Display user's name
+  </td> -->
   <td>
     {user.location}
     <!-- Display user's location -->
@@ -44,7 +44,7 @@
   </td>
   <td>
     <!-- Button to delete the user -->
-    <Button on:click={handleDelete}>Delete</Button>
+    <button class="btn btn-danger" on:click={handleDelete}>Delete</button>
   </td>
 </tr>
 
@@ -53,9 +53,9 @@
   tr,
   td {
     border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-    border-radius: 6px;
+    /* text-align: center; */
+    /* padding: 0 auto; */
+    /* border-radius: 6px; */
   }
 
   /* Background color for table row */
@@ -66,22 +66,5 @@
   /* Right-align text in price column */
   .price {
     text-align: right;
-  }
-
-  /* Responsive styles for small screens */
-  @media (max-width: 400px) {
-    tr,
-    td {
-      display: block;
-      width: 100%;
-      box-sizing: border-box;
-      text-align: left;
-      padding: 5px;
-    }
-
-    /* Left-align text in price column for small screens */
-    .price {
-      text-align: left;
-    }
   }
 </style>

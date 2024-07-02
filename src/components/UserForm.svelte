@@ -51,84 +51,85 @@
   };
 </script>
 
-<!-- Form to add user details -->
-<form on:submit={handleSubmit}>
-  <div class="form-field">
-    <label for="name">Name:</label>
-    <input
-      id="name"
-      type="text"
-      bind:value={name}
-      placeholder="Enter your name"
-      required
-    />
-  </div>
+<div class="container-fluid">
+  <!-- Form to add user details -->
+  <form on:submit={handleSubmit} class="">
+    <div class="mb-3">
+      <!-- <label for="name" class="form-label">Name:</label> -->
+      <input class="form-control"
+        id="name"
+        type="text"
+        bind:value={name}
+        placeholder="Enter your name"
+        required
+      />
+    </div>
 
-  <div class="form-field">
-    <label for="location">Location:</label>
-    <input
-      id="location"
-      type="text"
-      bind:value={location}
-      placeholder="Enter address of the fuel station and the state"
-      required
-    />
-  </div>
+    <div class="mb-3">
+      <!-- <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">Location</span> -->
+      <!-- <label for="location" class="form-label">Location:</label> -->
+      <input class="form-control"
+        id="location"
+        type="text"
+        bind:value={location}
+        placeholder="Enter address of the fuel station and the state"
+        required
+      />
+      <!-- </div> -->
+    </div>
 
-  <div class="form-field">
-    <label for="price">Price:</label>
-    <input
-      id="price"
-      type="number"
-      bind:value={price}
-      placeholder="Enter price in per L or per Kg"
-      required
-    />
-  </div>
+    <div class="mb-3">
+      <!-- <label for="price" class="form-label">Price:</label> -->
+      <input class="form-control"
+        id="price"
+        type="number"
+        bind:value={price}
+        placeholder="Enter price in per L or per Kg"
+        required
+      />
+    </div>
 
-  <div class="form-field">
-    <label for="product">Product:</label>
-    <select id="product" bind:value={product} required>
-      <option value="" disabled selected>Select a product</option>
-      <option value="PMS">PMS</option>
-      <option value="AGO">AGO</option>
-      <option value="LPG">LPG</option>
-    </select>
-  </div>
+    <div class="mb-3">
+      <!-- <label for="product" class="form-label">Product:</label> -->
+      <select id="product" class="form-select" bind:value={product} required>
+        <option value="" disabled selected>Select a product</option>
+        <option value="PMS">PMS</option>
+        <option value="AGO">AGO</option>
+        <option value="LPG">LPG</option>
+      </select>
+    </div>
 
-  <div class="form-field">
-    <label for="stationName">Name Of Fuel Station:</label>
-    <input
-      id="stationName"
-      type="text"
-      bind:value={stationName}
-      placeholder="Enter Fuel station name"
-      required
-    />
-  </div>
+    <div class="mb-3">
+      <!-- <label for="stationName" class="form-label">Name Of Fuel Station:</label> -->
+      <input class="form-control"
+        id="stationName"
+        type="text"
+        bind:value={stationName}
+        placeholder="Enter Fuel station name"
+        required
+      />
+    </div>
 
-  <!-- Display error message if any -->
-  {#if errorMessage}
-    <p class="error-message">{errorMessage}</p>
-  {/if}
+    <!-- Display error message if any -->
+    {#if errorMessage}
+      <p class="invalid-feedback">{errorMessage}</p>
+    {/if}
 
-  <div>
-    <!-- Submit button to add details -->
-    <Button type="submit secondary" flat={true}>Add Details</Button>
-  </div>
-</form>
+    <div>
+      <!-- Submit button to add details -->
+      <button type="submit" class="btn btn-success mb-2" flat={true}>Add Details</button>
+    </div>
+  </form>
+</div>
 
 <style>
   form {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
   }
-  .form-field {
-    margin: 18px auto;
-    text-align: left;
-  }
-  input,
+  /* input,
   select {
     width: 100%;
     padding: 8px;
@@ -136,15 +137,15 @@
     border-radius: 6px;
     box-sizing: border-box;
     background: #f7f7f7;
-  }
-  label {
+  } */
+  /* label {
     display: block;
     margin-bottom: 6px;
-  }
+  } */
 
-  .error-message {
+  /* .error-message {
     color: red;
     margin-top: 0.5em;
     text-align: center;
-  }
+  } */
 </style>

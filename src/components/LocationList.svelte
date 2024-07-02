@@ -47,7 +47,7 @@
     <thead>
       <!-- Table header -->
       <tr>
-        <th>Name</th>
+        <!-- <th>Name</th> -->
         <th>Location</th>
         <th>Price</th>
         <th>Product</th>
@@ -84,33 +84,5 @@
 
   th {
     background-color: #f2f2f2;
-  }
-
-  /* Media query for smaller screens */
-  @media (max-width: 400px) {
-    table,
-    th,
-    tr {
-      font-size: 12px;
-      padding: 5px;
-      margin-left: 0;
-    }
-
-    th,
-    tr {
-      display: block;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    tr {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    th {
-      background-color: transparent;
-    }
   }
 </style>
