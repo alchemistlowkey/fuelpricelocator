@@ -3,6 +3,7 @@ require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const helmet = require('helmet');
 const User = require("./models/User"); // Import the User model
 
 // Initialize the Express application
@@ -15,6 +16,8 @@ let uri = process.env.MONGODB_URI;
 
 // Middleware to enable Cross-Origin Resource Sharing (CORS)
 app.use(cors());
+
+app.use(helmet());
 
 // Middleware to parse incoming JSON requests
 app.use(express.json());
