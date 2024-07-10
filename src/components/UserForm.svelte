@@ -19,7 +19,7 @@
   const handleSubmit = async (event) => {
     try {
       // Send a POST request to the server to create a new user
-      const response = await fetch("http://localhost:5000/users", {
+      const response = await fetch("https://backend-gamma-ashen.vercel.app/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
