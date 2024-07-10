@@ -12,7 +12,7 @@
 
   // Function to fetch users from the server
   const fetchUsers = async () => {
-    const response = await fetch("http://localhost:5000/users");
+    const response = await fetch("https://backend-gamma-ashen.vercel.app/users");
     users = await response.json();
   };
 
