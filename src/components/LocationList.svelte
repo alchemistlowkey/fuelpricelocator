@@ -12,7 +12,9 @@
 
   // Function to fetch users from the server
   const fetchUsers = async () => {
-    const response = await fetch("https://backend-gamma-ashen.vercel.app/users");
+    const response = await fetch(
+      "https://backend-gamma-ashen.vercel.app/users"
+    );
     users = await response.json();
   };
 
@@ -43,25 +45,27 @@
 
 <!-- Display users in a table if users exist -->
 {#if users.length > 0}
-  <table>
-    <thead>
-      <!-- Table header -->
-      <tr>
-        <!-- <th>Name</th> -->
-        <th>Location</th>
-        <th>Price</th>
-        <th>Product</th>
-        <th>Name Of Fuel Station</th>
-        <th>Action</th>
-      </tr>
-    </thead>
-    <tbody in:slide out:fade>
-      <!-- Iterate over users and display LocationDetails component for each user -->
-      {#each users as user (user._id)}
-        <LocationDetails {user} onUpdate={handleUpdateUser} />
-      {/each}
-    </tbody>
-  </table>
+  <div class="table-responsive">
+    <table class="table table-sm table-success table-striped">
+      <thead class="table-info">
+        <!-- Table header -->
+        <tr>
+          <!-- <th>Name</th> -->
+          <th scope="col">Location</th>
+          <th scope="col">Price</th>
+          <th scope="col">Product</th>
+          <th scope="col">Name Of Fuel Station</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody in:slide out:fade>
+        <!-- Iterate over users and display LocationDetails component for each user -->
+        {#each users as user (user._id)}
+              <LocationDetails {user} onUpdate={handleUpdateUser} />
+        {/each}
+      </tbody>
+    </table>
+  </div>
 {:else}
   <!-- Display message if no users are found -->
   <p>No Details found.</p>

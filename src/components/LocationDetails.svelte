@@ -21,7 +21,7 @@
 </script>
 
 <!-- Table row to display user information -->
-<tr class="container-fluid">
+<tr class="table-responsive">
   <!-- <td>
     {user.name}
     Display user's name

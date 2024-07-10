@@ -29,7 +29,7 @@
 <Header />
 
 <main>
-  <div class="container-fluid">
+  <div class="container-fluid mt-2">
     <!-- Tabs component with active tab and items passed as props -->
     <!-- Handle tabChange events by calling the tabChange function -->
     <Tabs {activeItem} {items} on:tabChange={tabChange} />
