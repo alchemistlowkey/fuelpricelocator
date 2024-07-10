@@ -1,11 +1,13 @@
-<footer class="bg-secondary rounded m-0 text-white">
-  <div class="footer-content">
-    <div class="copyright">&copy; 2024 ALX Specialization Project</div>
+<div class="container-fluid mt-2">
+  <div class="bg-secondary rounded footer m-0 text-white">
+    <div class="footer-content">
+      <div class="copyright">&copy; 2024 ALX Specialization Project</div>
+    </div>
   </div>
-</footer>
+</div>
 
 <style>
-  footer {
+  .footer {
     padding: 40px;
     text-align: center;
     /* background-color: #f8f8f8; */

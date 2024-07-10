@@ -32,7 +32,7 @@
 
     // Fetch users based on search parameters
     const response = await fetch(
-      `http://localhost:5000/search?query=${searchParams.query}`
+      `https://backend-gamma-ashen.vercel.app/search?query=${searchParams.query}`
     );
     users = await response.json();
   };

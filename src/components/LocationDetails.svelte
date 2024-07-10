@@ -9,7 +9,7 @@
   // Function to handle the delete action
   const handleDelete = () => {
     // Send a DELETE request to the server to delete the user by ID
-    fetch(`http://localhost:5000/users/${user._id}`, {
+    fetch(`https://backend-gamma-ashen.vercel.app/users/${user._id}`, {
       method: "DELETE",
     }).then(() => {
       // If onUpdate callback is provided, call it after deletion
@@ -44,7 +44,7 @@
   </td>
   <td>
     <!-- Button to delete the user -->
-    <button class="btn btn-danger" on:click={handleDelete}>Delete</button>
+    <button class="btn btn-sm btn-danger" on:click={handleDelete}>Delete</button>
   </td>
 </tr>
 

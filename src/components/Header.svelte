@@ -1,4 +1,4 @@
-<header>
+<div class="container-fluid header">
   <h1>
     <img src="/img/petrolme.svg" alt="Fuel Logo" />
     <li>
@@ -7,10 +7,10 @@
       <ul><span class="lpg">LPG</span></ul>
     </li>
   </h1>
-</header>
+</div>
 
 <style>
-  header {
+  .header {
     background: #f7f7f7;
     padding: 20px;
   }
