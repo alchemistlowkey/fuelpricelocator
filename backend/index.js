@@ -1,9 +1,9 @@
 // Import required modules
-require('dotenv').config();
+require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const helmet = require('helmet');
+const helmet = require("helmet");
 const User = require("./models/User"); // Import the User model
 
 // Initialize the Express application
@@ -27,13 +27,15 @@ app.use(express.urlencoded({ extended: false }));
 
 // Connect to the MongoDB database
 // mongoose.connect(`mongodb://localhost:27017/fuelprice`);
-mongoose.connect(uri)
-.then(() => {
-  console.log("MongoDB Database connected");
-}).catch(err => {
-  console.error("MongoDB connection error: ", err);
-  process.exit(1);
-});
+mongoose
+  .connect(uri)
+  .then(() => {
+    console.log("MongoDB Database connected");
+  })
+  .catch((err) => {
+    console.error("MongoDB connection error: ", err);
+    process.exit(1);
+  });
 
 const connection = mongoose.connection;
 
