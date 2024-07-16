@@ -1,9 +1,9 @@
-<div class="container-fluid header">
+<div class="container-fluid header w-100 header-image">
   <h1>
     <img src="/img/petrolme.svg" alt="Fuel Logo" />
     <li>
-      <ul><span class="pms">PMS</span>/PETROL</ul>
-      <ul><span class="ago">AGO</span>/DIESEL</ul>
+      <ul class="text-primary"><span class="pms">PMS</span>/PETROL</ul>
+      <ul class="text-danger"><span class="ago">AGO</span>/DIESEL</ul>
       <ul><span class="lpg">LPG</span></ul>
     </li>
   </h1>
@@ -38,4 +38,11 @@
   .lpg {
     color: lightblue;
   }
+  .header-image{
+		background-image: url('/img/header-image.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%; /* Full width */
+	}
 </style>

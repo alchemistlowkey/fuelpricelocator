@@ -29,7 +29,7 @@
 <Header />
 
 <main>
-  <div class="container-fluid mt-2">
+  <div class="container-fluid pt-4 body-image">
     <!-- Tabs component with active tab and items passed as props -->
     <!-- Handle tabChange events by calling the tabChange function -->
     <Tabs {activeItem} {items} on:tabChange={tabChange} />
@@ -57,7 +57,7 @@
     text-align: center;
     /* padding: 1em; */
     /* max-width: 240px; */
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
 
   /* Media query for larger screens */
@@ -66,4 +66,11 @@
       max-width: none;
     }
   }
+  .body-image{
+		background-image: url('/img/nipco2.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%; /* Full width */
+	}
 </style>

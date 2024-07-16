@@ -1,7 +1,7 @@
-<div class="container-fluid mt-2">
-  <div class="bg-secondary rounded footer m-0 text-white">
+<div class="container-fluid footer-image">
+  <div class="footer m-0 text-white">
     <div class="footer-content">
-      <div class="copyright">&copy; 2024 ALX Specialization Project</div>
+      <div class="copyright text-light"><strong>&copy; 2024 ALX Specialization Project</strong></div>
     </div>
   </div>
 </div>
@@ -22,4 +22,11 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+  .footer-image{
+		background-image: url('/img/footer-image.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%; /* Full width */
+	}
 </style>
