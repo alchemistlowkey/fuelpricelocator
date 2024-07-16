@@ -26,7 +26,7 @@
     {user.name}
     Display user's name
   </td> -->
-  <td>
+  <td class="text-wrap">
     {user.location}
     <!-- Display user's location -->
   </td>
@@ -38,14 +38,14 @@
     {user.product}
     <!-- Display user's product -->
   </td>
-  <td>
+  <td class="text-wrap">
     {user.stationName}
     <!-- Display fuel station name -->
   </td>
-  <td>
+  <!-- <td> -->
     <!-- Button to delete the user -->
-    <button class="btn btn-sm btn-danger" on:click={handleDelete}>Delete</button>
-  </td>
+    <!-- <button class="btn btn-sm btn-danger" on:click={handleDelete}>Delete</button> -->
+  <!-- </td> -->
 </tr>
 
 <style>

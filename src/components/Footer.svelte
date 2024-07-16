@@ -16,7 +16,7 @@
     /* color: #aaa; */
     font-size: 14px;
     display: block;
-    padding: 20px;
+    padding: 10px;
   }
   .footer-content {
     max-width: 1200px;

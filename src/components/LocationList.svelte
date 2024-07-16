@@ -54,8 +54,8 @@
           <th scope="col">Location</th>
           <th scope="col">Price</th>
           <th scope="col">Product</th>
-          <th scope="col">Name Of Fuel Station</th>
-          <th scope="col">Action</th>
+          <th scope="col">Fuel Station</th>
+          <!-- <th scope="col">Action</th> -->
         </tr>
       </thead>
       <tbody in:slide out:fade>
