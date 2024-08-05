@@ -1,4 +1,4 @@
-<div class="container-fluid header w-100 header-image">
+<div class="container-fluid header w-100 header-image bg-light">
   <h1>
     <img src="/img/petrolme.svg" alt="Fuel Logo" />
     <li>
@@ -38,11 +38,11 @@
   .lpg {
     color: lightblue;
   }
-  .header-image{
+  /* .header-image{
 		background-image: url('/img/header-image.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		width: 100%; /* Full width */
-	}
+		width: 100%;
+	} */
 </style>

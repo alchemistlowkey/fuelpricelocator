@@ -13,7 +13,7 @@
   // Function to fetch users from the server
   const fetchUsers = async () => {
     const response = await fetch(
-      "https://backend-gamma-ashen.vercel.app/users"
+      "https://www.alchemistlowkey.tech/users"
     );
     users = await response.json();
   };
@@ -34,7 +34,7 @@
 
     // Fetch users based on search parameters
     const response = await fetch(
-      `https://backend-gamma-ashen.vercel.app/search?query=${searchParams.query}`
+      `https://www.alchemistlowkey.tech/search?query=${searchParams.query}`
     );
     users = await response.json();
   };

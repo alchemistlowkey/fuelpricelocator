@@ -9,7 +9,7 @@
   // Function to handle the delete action
   const handleDelete = () => {
     // Send a DELETE request to the server to delete the user by ID
-    fetch(`https://backend-gamma-ashen.vercel.app/users/${user._id}`, {
+    fetch(`https://www.alchemistlowkey.tech/users/${user._id}`, {
       method: "DELETE",
     }).then(() => {
       // If onUpdate callback is provided, call it after deletion
